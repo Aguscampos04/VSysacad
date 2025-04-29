@@ -3,7 +3,6 @@ from orientacion import Orientacion
 
 @dataclass(init=False, repr= True , eq=True)
 class Plan(Orientacion):
-    def __init__(self):
         nombre: str
         fechaInicio: str
         fechaFin: str

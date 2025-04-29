@@ -2,7 +2,6 @@ from dataclasses import dataclass
 
 @dataclass(init=False, repr= True , eq=True)
 class Facultad():
-    def __init__(self):
         nombre= str
         abreviatura = str
         directorio = str
