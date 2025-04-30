@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-@dataclass(init=False, repr= True , eq=True)
+@dataclass(repr=True, eq=True)
 class Cargo:
-        nombre: str
-        puntos: str
+        nombre: str = ""
+        puntos: str = ""
         

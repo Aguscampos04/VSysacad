@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from cargo import Cargo
 
-@dataclass(init=False, repr= True , eq=True)
+@dataclass(repr=True, eq=True)
 class TipoDedicacion(Cargo):
-        nombre: str
-        observacion: str
+        nombre: str = ""
+        observacion: str = ""

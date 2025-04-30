@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 from orientacion import Orientacion
 
-@dataclass(init=False, repr= True , eq=True)
+@dataclass(repr=True, eq=True)
 class Especialidad(Orientacion):
-        nombre: str
-        letra: str
-        observacion: str
+        nombre: str = ""
+        letra: str = ""
+        observacion: str = ""
